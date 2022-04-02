@@ -33,6 +33,6 @@
 - name: Performs synchronization every 1 minutes
   ansible.builtin.cron:
     name: unisonsync
-    minute: "*/5"
+    minute: "*/1"
     user: ubuntu
     job: "/usr/bin/unisonsync.sh"
